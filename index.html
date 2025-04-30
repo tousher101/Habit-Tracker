@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1 style="font-size:clamp(1.5rem, 4vw, 3.5rem);"> Habit Tracker</h1>
+    <h2 style="font-size: clamp(1rem, 4vw, 2rem);"> Track Your Habit With Finger Tip</h2>
+  </header>
+
+
+
+
+  <section class="main-section">
+    <div class="dashboard">
+      <p class="dsh-title"> Dash Board</p>
+      <div class="sub-container">
+     
+  </div>
+    </div>
+
+    <div class="main-wrapper">
+      <button class="add-habit-btn js-add-btn">Add New Habit+</button>
+      <div class="sec-wrapper">
+       
+      </div>
+    </div>
+  
+
+
+  </section>
+
+
+
+
+  <div class="habit-input">
+    <div class="input-elm">
+        <p class="title-modal">Add Your Habit</p>
+        <input class="input-habbit" type="text" placeholder="Add Your Habbit">
+        <div class="input-frequancy-elm">
+            <p class="title-frequancy">Frequancy</p>
+            <span>Everyday <input class="js-fr-input js-display-fr-everyday" value="Everyday" type="checkbox"></span> 
+            <span> Weekly <input class="js-Weekly-checkbox js-fr-input js-display-fr-weekly" value="Weekly" type="checkbox"></span> 
+            <span class="js-toggled-hide"> (if weekly) Number Of Days In Week <input class="input-weekly-day" type="text" placeholder="Number of days"></span>
+        </div>
+        <div class="input-frequancy-elm">
+            <p class="title-frequancy"> Custom Select Frequancy<input class="js-frequancy-checkbox js-fr-input js-cus-frq" value="Custom" type="checkbox"></p>
+            <div class="js-toggled-hide-custom-frequancy">
+          <span>Sat <input class="js-input-custom" value="Saturday" type="checkbox"></span>
+        <span>Sun <input class="js-input-custom" value="Sunday" type="checkbox"></span>  
+        <span>Mon <input class="js-input-custom" value="Monday" type="checkbox"></span>  
+        <span>Tue <input class="js-input-custom" value="Tuesday" type="checkbox"></span>
+        <span>Wed <input class="js-input-custom" value="Wednesday" type="checkbox"></span>  
+        <span>Thur <input class="js-input-custom" value="Thursday" type="checkbox"></span>  
+        <span>Fri <input class="js-input-custom" value="Friday" type="checkbox"></span>  
+          </div>
+        
+        </div>
+        <div class="btn-elm">
+            <button class="submit-btn">Submit</button>
+            <button class="cancel-btn">Cancel</button>
+        </div>
+        
+    
+    </div>
+</div>
+
+ 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script type="module" src="main.js"></script>
+</body>
+
+  </html>
+
+
+
+
