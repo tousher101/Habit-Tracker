@@ -2,13 +2,15 @@
 Fully Customized Habit tracking App crated by JavaScript and HTML and responsive UI using CSS.
 
 ##features
--> Add Hbit with modal
+-> Add Hbit with modal.
 -> Select you frequncy for maintain your habit.
--> Add (Daily, Weekly, Custom Frequancy)
+-> Add (Daily, Weekly, Custom Frequancy).
 -> DashBoard Available for your progress.
 -> Have chart for your progess(using chart.js)
 -> Complete your habit your frequancy based.
--> Instant UI update
+-> Instant UI update.
+-> Edit Habit.
+-> Delete Habit.
 
 
 ## 🛠 Tech Stack
